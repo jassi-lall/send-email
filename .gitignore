@@ -1,3 +1,9 @@
+# Defend against accidental credential upload
+# When storing sensitive data like api keys do one of these approaches:
+# 1) store in environment variables and access using os.environ['environment_variable_name']. Similar to how you would access PATH environment variable
+# 2) store in a folder outside the source tree
+credentials.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
