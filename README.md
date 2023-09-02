@@ -19,6 +19,6 @@ See python script provided in repo.
 Tweak the script using your gmail credentials. **See best practice for storing credentials below:**
 
 ### Storing credentials - best practice
-**DO NOT** store credentials in the source or anywhere in the source tree.
-The best way to store credentials is as an environment variable. To access enviornment variables within a python script use `os.environ['name']`. Similar to how you would access the PATH environment variable.
-If you really wish to store the credentials do it outside the source tree to avoid accidental leaks - e.g. accidentally pushing to GitHub
+DO NOT store credentials in the source or anywhere in the source tree.
+The best way to store credentials is as an environment variable. To access enviornment variables within a python script use `os.getenv('name')`. Similar to how you would access the PATH environment variable.
+If you really wish to store the credentials do it outside the source tree to avoid accidental leaks - e.g. accidentally pushing to GitHub.
