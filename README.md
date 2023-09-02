@@ -2,7 +2,7 @@
 A simple way to make a python script send email.
 
 ## Step 1 - gmail
-Set up a Google account. *Ideally just for this purpose - for security reasons.*
+Set up a Google account. *Ideally just for this purpose as you will have to modify the security settings*
 
 ## Step 2 - gmail app passwords
 Configure the Gmail account so that a program can use the account credentials.
