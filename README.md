@@ -1,5 +1,5 @@
 # Send Email Programatically 📧🔥
-A simple way to make a python script send email.
+A simple way to make a python script send email. Completly free.
 
 ## Step 1 - Create Gmail
 Set up a Google account - *ideally just for this purpose as you will have to modify the security settings.*
