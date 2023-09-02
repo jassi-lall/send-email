@@ -13,8 +13,8 @@ if getenv('gmail_username') == None:
 
 # Set up email parameters
 sender_email = getenv('gmail_username')
-receiver_email = "INSERT EMAIL HERE (IN LINE 16 OF PYTHON SCRIPT)"
-subject = "test email"
+receiver_email = "INSERT RECIPIENT EMAIL HERE (IN LINE 16 OF PYTHON SCRIPT)"
+subject = "Automated message"
 message = """
     Hi
 
